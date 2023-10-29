@@ -9,11 +9,12 @@ db = client.get_database("user_db")
 users_collection = db.get_collection("users")
 
 
+
 JOBS=[
     {
         'id':1,
         'title':'data analyst',
-        'location':'bengaluru , india',
+        'location':'Bengaluru , india',
         'salary':' Rs. 2,00000'
     },
     {
